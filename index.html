@@ -2,8 +2,17 @@
 <html>
     <head>
         <title>Dice Generator</title>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>devsInc Dice Generator</h1>
+        <header>
+            <h1>devsInc Dice Generator</h1>
+        </header>
+        <main>
+            <label for="faces">Number of Die Faces:</label>
+            <input type="text" name="faces" id="die-faces">
+            <button onclick="roll()">Roll the Die</button>
+            <h1 id="result"></h1>
+        </main>
     </body>
 </html>
